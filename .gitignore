@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# -------------------------
+# Cool Neighbourhoods project additions
+# -------------------------
+
+# Data folder (managed with DVC, not Git)
+data/
+
+# Experiment logs and outputs
+mlruns/          # MLflow local logs
+outputs/
+models/
+checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
